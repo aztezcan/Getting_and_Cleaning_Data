@@ -102,7 +102,7 @@ continuous measurements
 
 
 
-#Variables in tidy_data.txt
+#Variables in aggregate_data.txt
 
 ##Subject_ID:  
 unique identification number for each study participant
