@@ -19,26 +19,18 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 ##[2] Explanation of folders and files in the repository:
-      ###(A) UCI HAR Dataset -- contains raw data in folders: Test and Train 
-Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip (link is stored in Assignment Link file in misc folder)
 
-      ###(B) Cleaned_Data -- contains final data sets created from raw data
-
-      1. tidy_data.txt → created by
-
+1. Assignment Link: 
+      Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip (link is stored in  file in misc folder)
+2. UCI HAR Dataset -- contains raw data in folders: Test and Train
+3. Cleaned_Data -- contains final data sets created from raw data
+      A. tidy_data.txt → created by
           * merging Test and Train data
           * extracting the mean and standard deviation for each measurement 
           * labeling descriptive labels for activity names 
- 
-     2. aggregate_data.txt → created by using the data set ‘tidy_data’ and creating a second, independent aggregate data set with the average of each variable for each activity and each subject.
-
-      ###(C) run_analysis.R
-
-R code used to generate clean database
-
-      ###(D) CodeBook.md
-
-A codebook that describes the variables, the data, and any transformations 
+     B. aggregate_data.txt → created by using the data set ‘tidy_data’ and creating a second, independent aggregate data set with the average of each variable for each activity and each subject.
+4. run_analysis.R -- R code used to generate clean database
+5. CodeBook.md -- A codebook that describes the variables, the data, and any transformations 
 
 ##[3] Version Information
 RStudio Version 0.99.447 – © 2009-2015 RStudio, Inc.
