@@ -1,9 +1,3 @@
-## Assignment explanation
-* run_analysis reads data from UCI HAR Dataset in Getting_and_Cleaning_Data repository here, which was donsloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip stored in Assignment Link folder.
-* UCI HAR Dataset contains test and activity data
-* run_analysis.R uses test and tarin directories to create tidy_data_set.txt and aggregate_data_set.txt
-
-
 #Variables in tidy_data.txt
 
 ##Subject_ID:  
