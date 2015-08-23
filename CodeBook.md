@@ -1,3 +1,7 @@
+* run_analysis reads data from UCI HAR Dataset in Getting_and_Cleaning_Data repository here
+* 
+
+
 #Variables in tidy_data.txt
 
 ##Subject_ID:  
