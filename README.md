@@ -2,8 +2,8 @@
 
 ##[1] Project data information
 Source: Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)
-1 - Smartlab - Non-Linear Complex Systems Laboratory DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy. 
-2 - CETpD - Technical Research Centre for Dependency Care and Autonomous Living Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain activityrecognition '@' smartlab.ws
+1. Smartlab - Non-Linear Complex Systems Laboratory DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy. 
+2. CETpD - Technical Research Centre for Dependency Care and Autonomous Living Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain activityrecognition '@' smartlab.ws
 
 Data Set Information: The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -20,23 +20,38 @@ For each record in the dataset it is provided:
 
 ##[2] Explanation of folders and files in the repository:
 
-1. Assignment Link: 
-      Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip (link is stored in  file in misc folder)
-2. UCI HAR Dataset -- contains raw data in folders: Test and Train
-3. Cleaned_Data -- contains final data sets created from raw data
-      A. tidy_data.txt → created by
+###1. Assignment Link: 
+
+Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip (link is stored in  file in misc folder)
+
+###2. UCI HAR Dataset 
+
+contains raw data in folders: Test and Train
+
+###3. Cleaned_Data 
+
+contains final data sets created from raw data
+
+      #A. tidy_data.txt → created by
           * merging Test and Train data
           * extracting the mean and standard deviation for each measurement 
           * labeling descriptive labels for activity names 
-     B. aggregate_data.txt → created by using the data set ‘tidy_data’ and creating a second, independent aggregate data set with the average of each variable for each activity and each subject.
-4. run_analysis.R -- R code used to generate clean database
-5. CodeBook.md -- A codebook that describes the variables, the data, and any transformations 
+      #B. aggregate_data.txt → created by using the data set ‘tidy_data’ and creating a second, independent aggregate data set with the average of each variable for each activity and each subject.
+
+###4. run_analysis.R 
+
+R code used to generate clean database
+
+###5. CodeBook.md 
+
+A codebook that describes the variables, the data, and any transformations 
 
 ##[3] Version Information
-RStudio Version 0.99.447 – © 2009-2015 RStudio, Inc.
-R version 3.2.1 (2015-06-18) -- "World-Famous Astronaut"
-Copyright (C) 2015 The R Foundation for Statistical Computing
-Platform: x86_64-apple-darwin13.4.0 (64-bit)
+
+            * RStudio Version 0.99.447 – © 2009-2015 RStudio, Inc.
+            * R version 3.2.1 (2015-06-18) -- "World-Famous Astronaut"
+            * Copyright (C) 2015 The R Foundation for Statistical Computing
+            * Platform: x86_64-apple-darwin13.4.0 (64-bit)
 
 ##README.md
 
