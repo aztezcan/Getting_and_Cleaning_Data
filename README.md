@@ -32,11 +32,11 @@ contains raw data in folders: Test and Train
 
 contains final data sets created from raw data
 
-      * A. tidy_data.txt → created by
+      A. tidy_data.txt → created by
           * merging Test and Train data
           * extracting the mean and standard deviation for each measurement 
           * labeling descriptive labels for activity names 
-      * B. aggregate_data.txt → created by using the data set ‘tidy_data’ and creating a second, independent aggregate data set with the average of each variable for each activity and each subject.
+      B. aggregate_data.txt → created by using the data set ‘tidy_data’ and creating a second, independent aggregate data set with the average of each variable for each activity and each subject.
 
 ###4. run_analysis.R 
 
