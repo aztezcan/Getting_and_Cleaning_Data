@@ -19,10 +19,10 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 ##[2] Explanation of folders and files in the repository:
-###UCI HAR Dataset -- contains raw data in folders: Test and Train 
+###(A) UCI HAR Dataset -- contains raw data in folders: Test and Train 
 Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip (link is stored in Assignment Link file in misc folder)
 
-###(A) Cleaned_Data -- contains final data sets created from raw data
+###(B) Cleaned_Data -- contains final data sets created from raw data
 
       1. tidy_data.txt → created by
 
@@ -32,7 +32,7 @@ Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
  
      2. aggregate_data.txt → created by using the data set ‘tidy_data’ and creating a second, independent aggregate data set with the average of each variable for each activity and each subject.
 
-###(B) run_analysis.R
+###(C) run_analysis.R
 
 R code used to generate clean database
 
